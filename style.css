@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1b1b1b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.wrapper {
+  width: 450px;
+  text-align: center;
+}
+.google {
+  background: #db4437;
+  width: 100%;
+  font-size: 1rem;
+}
+.google:hover {
+  background: #ff7666;
+}
+
+.logout {
+  background: #ff4757;
+  width: 100%;
+  font-size: 1rem;
+
+}
+.logout:hover {
+  background: #ff6b81;
+}
+
+/* Checkbox task style */
+.list li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #6c5ce7;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.row {
+  display: flex;
+  /* justify-content: center; */
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.date1{
+  display: flex;
+  /* justify-content: center; */
+  gap: 30px;
+  margin-bottom: 20px;
+
+}
+
+
+.input-date, .input-text {
+  padding: 12px 14px;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.input-text::placeholder {
+  color: #ccc;
+}
+
+.btn {
+  padding: 12px 18px;
+  background: #6c5ce7;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #a29bfe;
+  transform: scale(1.05);
+}
+
+.section-title {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.list li {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+.list li:hover {
+  transform: translateX(5px);
+}
+
+.completed {
+  /* text-decoration: line-through; */
+  opacity: 0.5;
+}
+
+.login{
+  margin-top: 10px;
+  width: 100%;
+}
