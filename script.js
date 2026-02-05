@@ -1,5 +1,5 @@
 const supabaseUrl = "https://zymlknlhxlvcnazlmfjj.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp5bWxrbmxoeGx2Y25hemxtZmpqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk4NzYxNjgsImV4cCI6MjA4NTQ1MjE2OH0.GipudbsRnZKPCPbhyVFgQlO4jbjwASHr_UniBl3ei3Y";
+const supabaseKey = "confidential";
 const client = supabase.createClient(supabaseUrl, supabaseKey);
 
 let currentUser = null;
